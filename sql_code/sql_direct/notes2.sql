@@ -16,3 +16,4 @@ insert into notes values (4,'Copy-n-Paste');
 insert into notes values (5,'More notes');
 commit;
 
+alter table employees add col (state varchar2(30));
